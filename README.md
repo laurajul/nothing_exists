@@ -1,12 +1,11 @@
 # NOTHING_EXISTS
 
 ## Project Overview
-**"In nature nothing exists alone"** - *Silent Spring, Rachel Carson*
+> **"In nature nothing exists alone"** 
+> - *Silent Spring, Rachel Carson*
 
 Everything in our world is interconnected, interwoven - a layered mesh that unfolds across scales of time and space beyond comprehension to the sentient mind. The attempt to grasp these hyperconnected realities requries a deliberate alteration of perception:
 
-
-**Concept:**
 
 > "We have only to speed up our sense of time to see how strange life forms are. They arise, flicker, and vanish."  
 > — *The Ecological Thought, Tim Morton*
@@ -30,6 +29,9 @@ The work seeks to demonstrate the necessity of altering representations of time 
 - **visual.ipynb**
   - Performs Text-to-Speech (TTS) conversion using Google Text-to-Speech (*gTTS*).
   - Saves the generated speech as a WAV file.
+
+![Alt text](img/schema.svg)
+
 
 - **wav_to_c_array.ipynb**
   - Converts WAV files into C arrays to fit within the ESP-32's working memory, wich can then be pasted into the *.ino code.
@@ -70,6 +72,11 @@ The circuit design is a voltage divider using:
 3. Use `wav_to_c_array.ipynb` to convert the WAV file into a C array.
 4. Embed the C array in `esp_32.ino` and upload it to the ESP-32.
 5. Connect the ESP-32 to the voltage divider circuit and fabric sensor.
+
+
+![Alt text](img/schema.svg)
+
+
 
 ---
 
