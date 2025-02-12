@@ -30,9 +30,6 @@ The work seeks to demonstrate the necessity of altering representations of time 
   - Performs Text-to-Speech (TTS) conversion using Google Text-to-Speech (*gTTS*).
   - Saves the generated speech as a WAV file.
 
-![Alt text](img/waveform_polar.svg)
-
-
 - **wav_to_c_array.ipynb**
   - Converts WAV files into C arrays to fit within the ESP-32's working memory, wich can then be pasted into the *.ino code.
 
