@@ -37,9 +37,9 @@ The work seeks to demonstrate the necessity of altering representations of time 
   - Converts WAV files into C arrays to fit within the ESP-32's working memory, wich can then be pasted into the *.ino code.
 
 ### 3. Circuit & Hardware Information
-The circuit design is a voltage divider using:
+The circuit design is a simple voltage divider using:
 - **Capacitor 1:** 230Ω capacitor
-- **Second Component:** Conductive cloth with antistatic thread
+- **Capacitor 2:** Conductive cloth with antistatic thread
 - The resistance of the cloth varies with size, and it may require an additional resistor with either **higher or lower resistance** based on its dimensions.**Audio output pin**: DAC1 (GPIO25)
 **Voltage input**: Analog (GPIO34)
 
@@ -49,7 +49,7 @@ The circuit design is a voltage divider using:
 1. The ESP-32 generates low-frequency sound waves from voltage readings that are audible but unintelligible.
 2. Interaction with the fabric changes the frequency, making the spoken words discernible.
 3. The voltage divider circuit responds dynamically to touch and manipulation, altering the waveform properties.
-4. The processed audio is output through **Pin A25**, a special pin on the ESP-32 optimized for modulated audio.
+4. The processed audio is output through DAC (GPIO25)**Pin A25**.
 
 ---
 
