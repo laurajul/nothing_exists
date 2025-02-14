@@ -2,7 +2,7 @@
 
 ## Project Overview
 > **"In nature nothing exists alone"** 
-> - *Silent Spring, Rachel Carson*
+>  — *Silent Spring, Rachel Carson*
 
 Everything in our world is interconnected, interwoven - a layered mesh that unfolds across scales of time and space beyond comprehension to the sentient mind. The attempt to grasp these hyperconnected realities requries a deliberate alteration of perception:
 
@@ -73,9 +73,7 @@ The circuit design is a simple voltage divider using:
 
 ![Alt text](img/schema.svg)
 
-
-
 ---
 
-This project invites participants to reimagine perception, time, and interconnected realities through interactive sound transformation.
+This project invites to reimagine perception, time, and interconnected realities through interactive sound transformation.
 
